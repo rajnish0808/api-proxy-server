@@ -32,11 +32,11 @@ A simple API proxy server built with Node.js and Express.js. This server proxies
 
 3. **Create a .env File**
    ```bash
-   -PORT=3001
-   -API_URL=https://api.github.com
-   -RATE_LIMIT=5
-   -CACHE_DURATION=300
-   -AUTH_TOKEN=12345678
+   PORT=3001
+   API_URL=https://api.github.com
+   RATE_LIMIT=5
+   CACHE_DURATION=300
+   AUTH_TOKEN=12345678
 
 4. **Run the server**
    ```bash

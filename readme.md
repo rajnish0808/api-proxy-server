@@ -27,16 +27,19 @@ A simple API proxy server built with Node.js and Express.js. This server proxies
    cd api-proxy-server
 
 2. **Install Dependencies**
+   ```bash
    npm install
 
 3. **Create a .env File**
-   PORT=3001
-   API_URL=https://api.github.com
-   RATE_LIMIT=5
-   CACHE_DURATION=300
-   AUTH_TOKEN=12345678
+   ```bash
+   -PORT=3001
+   -API_URL=https://api.github.com
+   -RATE_LIMIT=5
+   -CACHE_DURATION=300
+   -AUTH_TOKEN=12345678
 
 4. **Run the server**
+   ```bash
    node server.js
 
 
